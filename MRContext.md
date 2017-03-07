@@ -1,5 +1,5 @@
 #Virtual Exposition in Mixed Reality context
-In this documentation I’ll be placing the technologies used in the Virtual Exposition in the field of Mixed Reality. To do this I’ll use the taxonomy as defined by Paul Milgram, Haruo Takemura, Akira Utsumi and Fumio Kishino in “Augmented Reality: A class of displays on the reality-virtuality continuum”. I’ll start with a short summary of that taxonomy. 
+In this documentation I’ll be placing the technologies used in the Virtual Exposition in the field of Mixed Reality. To do this I’ll use the taxonomy as defined by Paul Milgram, Haruo Takemura, Akira Utsumi and Fumio Kishino in [*Augmented Reality: A class of displays on the reality-virtuality continuum*](http://etclab.mie.utoronto.ca/publication/1994/Milgram_Takemura_SPIE1994.pdf). I’ll start with a short summary of that taxonomy. 
 
 ##Reality-Virtuality Continuum
 The RV Continuum is a scale between a real and a virtual environment.
