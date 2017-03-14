@@ -39,6 +39,7 @@ void make() {
   
   top.beginDraw();
   top.background(255);
+  top.save("bottom.jpg");
   top.noStroke();
   float x=0, y=0, w;
   for(int i=0; i!=3; ++i){
