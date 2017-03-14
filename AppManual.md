@@ -13,3 +13,5 @@ to get the full experience!
 
 But don't have the pedestal leave your field of view, because the app will lose tracking.
 If this happens, simply take a step back to regain tracking.
+
+**Enjoy!**
