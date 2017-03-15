@@ -1,19 +1,19 @@
-#Virtual Exposition in Mixed Reality context
+# Virtual Exposition in Mixed Reality context
 In this documentation I’ll be placing the technologies used in the Virtual Exposition in the field of Mixed Reality. To do this I’ll use the taxonomy as defined by Paul Milgram, Haruo Takemura, Akira Utsumi and Fumio Kishino in [*Augmented Reality: A class of displays on the reality-virtuality continuum*](http://etclab.mie.utoronto.ca/publication/1994/Milgram_Takemura_SPIE1994.pdf). I’ll start with a short summary of that taxonomy. 
 
-##Reality-Virtuality Continuum
+## Reality-Virtuality Continuum
 The RV Continuum is a scale between a real and a virtual environment.
 
-##Extent of World Knowledge (EWK)
+## Extent of World Knowledge (EWK)
 The EWK is a measure of how aware the device is of its environment. It is derived by looking at whether a device knows what the object around him are and whether it knows where those objects and itself are in 3D space.
 
-##Reproduction Fidelity (RF)
+## Reproduction Fidelity (RF)
 The RF is a measure of quality of the image the device creates. This depends on resolution, field of view and whether the image is mono- or stereoscopic.
 
-##Extent of Presence Metaphor (EPM)
+## Extent of Presence Metaphor (EPM)
 The EPM is a measure of immersion. It is partly dependent on the RF, as a better quality image will result in a more immersive experience. It also depends on whether the device uses a screen or a HMD (Head Mounted Device) and how much motion tracking there it does.
 
-##Virtual Exposition
+## Virtual Exposition
 First I’ll be rating the Virtual Exposition on these four criteria. Since there are the options in the AR app to use it handheld or in a VR headset, I’ll rate those separately.
 
 For both of them the AR app is fairly close to reality in the RV Continuum, because it just adds some images to reality.
@@ -24,7 +24,7 @@ The RF for the handheld option will be slightly higher, because the image can be
 
 The EPM will be reasonable for both options, since there is a Video See-Through view. The VR option, however, will be slightly more immersive, because it uses a HMD. But the field of view is smaller than in other VR apps, because it depends on the field of view of the camera.
 
-##HTC Vive
+## HTC Vive
 I’ll also be taking a look at the HTC Vive, specifically the program Tilt Brush by Google, since that’s what was used to make the art for the Virtual Exposition.
 
 The Vive is closer to a virtual environment, since most of the world around you is Computer Generated. The only real elements are the size of the environment and the tracked HMD and controllers.
