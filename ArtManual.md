@@ -13,7 +13,7 @@ These are instructions to add artworks to the *Virtual Exposition* app.
 9. Repeat steps 1-8 for every artwork
 10. Download the database
 11. Open the *VirtualExposition* in Unity
-12. Go to the *Exposition* scene and import the database under *File -> Import package -> Custom package*
+12. Go to the *Exposition* scene and import the database under *Assets -> Import package -> Custom package*
 13. Open the *ARCamera* in the inspector and activate the database
 14. From *Vuforia -> Prefabs* drag a Cuboid Target anywhere into the scene
 15. Import the *.fbx* file Tilt Brush exported into the assets
