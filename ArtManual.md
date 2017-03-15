@@ -3,7 +3,7 @@
 These are instructions to add artworks to the *Virtual Exposition* app.
 
 1. Make an artwork in Tilt Brush
-2. Export it (the export button is under the gear icon)
+2. Export it (the export button is under the dots, then the flask)
 3. Run the [Pattern Generator](PatternGenerator) to create a pattern for the pedestal
 4. Open the [Vuforia Developer Console](http://developer.vuforia.com) and log in
 5. Under *Target Manager* either add a new database or open an existing one
