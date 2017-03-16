@@ -14,6 +14,8 @@ Later Google released their Tilt Brush Unity Toolkit, which can export sketches 
 This means the imported model in Unity looks exactly like it was created in Tilt Brush. 
 Because I was already making the app in Unity, I decided to use this.
 
+![sketchfab](sketchfabScreenshot.png)
+
 More detailed documentation on various ways of exporting Tilt Brush sketches I tried out can be found in [this repository](http://github.com/thijsvb/TiltBrushDisplay).
 
 ## Using the Vuforia AR Platform
