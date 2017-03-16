@@ -20,4 +20,7 @@ These are instructions to add artworks to the *Virtual Exposition* app.
 16. Drag the artwork on top of the Cuboid Target in the *Hierarchy*
 17. Position the artwork relative to the Cuboid Target in the scene
 18. Repeat steps 14-17 for every artwork
-19. Open *Build Settings* and build the app
+19. Open the *Menu* scene
+20. Open *Build Settings* and click *Add all open scenes*
+21. Make sure the *Menu* scene is first, if not drag it to the top of the list
+22. Build the app
