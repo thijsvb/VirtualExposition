@@ -14,7 +14,7 @@ Later Google released their Tilt Brush Unity Toolkit, which can export sketches 
 This means the imported model in Unity looks exactly like it was created in Tilt Brush. 
 Because I was already making the app in Unity, I decided to use this.
 
-More detailed documentation of various ways of exporting Tilt Brush sketches I tried out can be found in [this repository](http://github.com/thijsvb/TiltBrushDisplay).
+More detailed documentation on various ways of exporting Tilt Brush sketches I tried out can be found in [this repository](http://github.com/thijsvb/TiltBrushDisplay).
 
 ## Using the Vuforia AR Platform
 To make the models appear on empty pedestals I used the Vuforia AR platform for Unity.
@@ -24,10 +24,18 @@ For an image target it just needs an image. For a cuboid target it needs the dim
 
 I registered at Vuforia to get a license key and created a database. To this database I could add targets and upload the images. I tried out all of the targets and decided that the cuboid would be best for tracking the top of a pedestal.
 
-In Unity I imported the Vuforia package and the Tilt Brush Toolkit package. I then imported the target database and the Tilt Brush sketch. In Unity I placed the model on the target and positioned it to look right. After adjusting some settings for Android,  was a working AR app. 
+In Unity I imported the Vuforia package and the Tilt Brush Toolkit package. I then imported the target database and the Tilt Brush sketch. In Unity I placed the model on the target and positioned it to look right. After adjusting some settings for Android, this was a working AR app. 
+
+Vuforia can also be compatible with a (Google Cardboard style) VR viewer by changing some settings. However, because the point of view is the camera which is at an odd offset and the field of view is small, it's not the best VR experience.
+
+More detailed documentation on the different Vuforia targets can be found in [this repository](http://github.com/thijsvb/VuforiaTest).
 
 ## Making the Pattern Generator
+After testing a lot of stuff in Vuforia, I learned what kind of target images worked best. Vuforia puts tracking points on an image, these points are placed on corners with a lot of contrast. So anything that has enough contrasting colors and corners will be a good tracking image. Text works really well for this purpose.
 
+I made a pattern generator to create the target images for the pedestals. The pedestals will be square coloms, with the top part having a pattern on it. This top slice of the pedestal can be seen as a cuboid, so the pattern generator makes images that can be used for a cuboid target.
 
+When running the pattern generator you first have to enter a name for the artwork. This name will act as a unique identifier for the piece. By using the name to seed a random number generator, entering the same name will always generate the same pattern. The pattern itself is a couple of greyscale circles overlapping each other, with the name printed over that on the top image.
 
 ## Final Product
+In the final app I combined all the research listed above. I also added a simple menu at the start, which lets you choose between using the app handheld or with a VR viewer. 
