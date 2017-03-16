@@ -17,6 +17,14 @@ Because I was already making the app in Unity, I decided to use this.
 More detailed documentation of various ways of exporting Tilt Brush sketches I tried out can be found in [this repository](http://github.com/thijsvb/TiltBrushDisplay).
 
 ## Using the Vuforia AR Platform
+To make the models appear on empty pedestals I used the Vuforia AR platform for Unity.
+
+Vuforia can recognise various types of targets; images, cuboids, cylinders and 3D objects.
+For an image target it just needs an image. For a cuboid target it needs the dimensions of the cube and an image for each of the faces. For a cylinder target it needs the dimensions and an image to wrap around the cylinder, as well as an image for both the top and the bottom. Finally, for the 3D object target you have to scan an object using an app Vuforia made.
+
+I registered at Vuforia to get a license key and created a database. To this database I could add targets and upload the images. I tried out all of the targets and decided that the cuboid would be best for tracking the top of a pedestal.
+
+
 
 ## Making the Pattern Generator
 
