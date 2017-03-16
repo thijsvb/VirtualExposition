@@ -16,6 +16,8 @@ Because I was already making the app in Unity, I decided to use this.
 
 ![sketchfab](sketchfabScreenshot.png)
 
+*An exported Tilt Brush sketch in the online viewer Sketchfab*
+
 More detailed documentation on various ways of exporting Tilt Brush sketches I tried out can be found in [this repository](http://github.com/thijsvb/TiltBrushDisplay).
 
 ## Using the Vuforia AR Platform
@@ -30,6 +32,10 @@ In Unity I imported the Vuforia package and the Tilt Brush Toolkit package. I th
 
 Vuforia can also be compatible with a (Google Cardboard style) VR viewer by changing some settings. However, because the point of view is the camera which is at an odd offset and the field of view is small, it's not the best VR experience.
 
+![unity](unityScreenshot.png)
+
+*A cuboid target with a model on top in Unity*
+
 More detailed documentation on the different Vuforia targets can be found in [this repository](http://github.com/thijsvb/VuforiaTest).
 
 ## Making the Pattern Generator
@@ -38,6 +44,10 @@ After testing a lot of stuff in Vuforia, I learned what kind of target images wo
 I made a pattern generator to create the target images for the pedestals. The pedestals will be square coloms, with the top part having a pattern on it. This top slice of the pedestal can be seen as a cuboid, so the pattern generator makes images that can be used for a cuboid target.
 
 When running the pattern generator you first have to enter a name for the artwork. This name will act as a unique identifier for the piece. By using the name to seed a random number generator, entering the same name will always generate the same pattern. The pattern itself is a couple of greyscale circles overlapping each other, with the name printed over that on the top image.
+
+![pattern](PatternGenerator/top.jpg)
+
+*An example of the top of a generated cuboid target*
 
 ## Final Product
 In the final app I combined all the research listed above. I also added a simple menu at the start, which lets you choose between using the app handheld or with a VR viewer. 
