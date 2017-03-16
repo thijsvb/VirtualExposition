@@ -24,8 +24,10 @@ For an image target it just needs an image. For a cuboid target it needs the dim
 
 I registered at Vuforia to get a license key and created a database. To this database I could add targets and upload the images. I tried out all of the targets and decided that the cuboid would be best for tracking the top of a pedestal.
 
-
+In Unity I imported the Vuforia package and the Tilt Brush Toolkit package. I then imported the target database and the Tilt Brush sketch. In Unity I placed the model on the target and positioned it to look right. After adjusting some settings for Android,  was a working AR app. 
 
 ## Making the Pattern Generator
+
+
 
 ## Final Product
