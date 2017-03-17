@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtueleExpositie.CSharp", "VirtueleExpositie.CSharp.csproj", "{56563EBC-3FF5-9371-12AE-A4F51B4123A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtueleExpositie.CSharp.Editor", "VirtueleExpositie.CSharp.Editor.csproj", "{FAFDE513-F40E-F268-841D-0CD392DA4BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56563EBC-3FF5-9371-12AE-A4F51B4123A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56563EBC-3FF5-9371-12AE-A4F51B4123A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56563EBC-3FF5-9371-12AE-A4F51B4123A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56563EBC-3FF5-9371-12AE-A4F51B4123A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFDE513-F40E-F268-841D-0CD392DA4BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFDE513-F40E-F268-841D-0CD392DA4BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFDE513-F40E-F268-841D-0CD392DA4BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFDE513-F40E-F268-841D-0CD392DA4BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
