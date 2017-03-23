@@ -16,7 +16,7 @@ The EPM is a measure of immersion. It is partly dependent on the RF, as a better
 ## Virtual Exposition
 First I’ll be rating the Virtual Exposition on these four criteria. Since there are the options in the AR app to use it handheld or in a VR headset, I’ll rate those separately.
 
-For both of them the AR app is fairly close to reality in the RV Continuum, because it just adds some images to reality.
+The handheld version is a clear example of AR, since it adds an image to reality. When using the app in a VR viewer it can be concidered closer to VR. This is because it augments the entire field of view, so you're placed in a different reality.
 
 For both options the EWK is the same. It’s quite low, because the app only recognizes the targets. But apart from knowing where the targets and the models are in relation to each other, it has no model of any other objects or even itself in 3D space.
 
@@ -27,7 +27,7 @@ The EPM will be reasonable for both options, since there is a Video See-Through 
 ## HTC Vive
 I’ll also be taking a look at the HTC Vive, specifically the program Tilt Brush by Google, since that’s what was used to make the art for the Virtual Exposition.
 
-The Vive is closer to a virtual environment, since most of the world around you is Computer Generated. The only real elements are the size of the environment and the tracked HMD and controllers.
+The Vive is more of an augmented virtual environment, since most of the world around you is Computer Generated. The only real elements are the size of the environment and the tracked HMD and controllers.
 
 The EWK is very high for the Vive, it knows what the controllers and headset are and where they are in relation to the room (actually the base stations). 
 
@@ -35,3 +35,10 @@ The RF is also very high, as the Vive has a good resolution (2160x1200 at 90Hz),
 
 Also the EPM is very good for the Vive, the HMD and motion tracking of both the head and controllers results in a very immersive experience.
 
+
+## Graphs
+I made some graphs to illustrate the differences between the Vive and the handheld and VR versions of the AR app.
+![RVC](../RVC.png)
+![EWK](../EWK.png)
+![RF](../RF.png)
+![EPM](../EPM.png)
