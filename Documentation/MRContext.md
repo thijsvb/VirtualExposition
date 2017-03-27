@@ -38,7 +38,7 @@ Also the EPM is very good for the Vive, the HMD and motion tracking of both the 
 
 ## Graphs
 I made some graphs to illustrate the differences between the Vive and the handheld and VR versions of the AR app.
-![RVC](../RVC.png)
-![EWK](../EWK.png)
-![RF](../RF.png)
-![EPM](../EPM.png)
+![RVC](RVC.png)
+![EWK](EWK.png)
+![RF](RF.png)
+![EPM](EPM.png)
